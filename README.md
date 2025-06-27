@@ -1,1 +1,5 @@
-This project contains code for my SOC project Mini Network Simulator
+We started off by revisiting the fundamentals of object-oriented programming in C++, focusing on how to structure code across multiple files using header files and Makefiles. 
+
+After that, we implemented shape classes like Rectangle, Square, Circle, and Ellipse, and tied them together using a common Shape base class. This gave us solid practice with inheritance, polymorphism, and designing for extensibility. We also added support for coordinates and a getShape() method to identify each type. While building this, we learned the importance of avoiding code duplication and writing modular, clean code that’s easy to extend.
+
+Later, we shifted focus to design — specifically using UML diagrams to plan our class structures before jumping into code. This made the implementation phase much more straightforward. We then created a Canvas class to manage multiple shapes and used SFML to display them graphically. Each shape handles its own rendering, which keeps the display logic modular and easy to manage.
